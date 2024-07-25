@@ -21,10 +21,10 @@
 │      system_stm32f4xx.c：系统初始化，配置系统时钟
 │      system_stm32f4xx.h
 │
-d└─User
-        main.c
-        main.h
-        stm32f4xx_conf.h：具体板卡型号的配置
-        stm32f4xx_it.c：用户编写的中断服务程序
-        stm32f4xx_it.h
+└─User:
+     ├─main.c
+     ├─main.h
+     ├─stm32f4xx_conf.h：具体板卡型号的配置
+     ├─stm32f4xx_it.c：用户编写的中断服务程序
+     ├─stm32f4xx_it.h
 
